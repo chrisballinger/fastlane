@@ -213,7 +213,7 @@ module Match
                                      default_value: false),
         FastlaneCore::ConfigItem.new(key: :derive_maccatalyst,
                                      env_name: "MATCH_DERIVE_MACCATALYST",
-                                     description: "Prefixes bundle identifier with `maccatalyst`. Set this to true if your project sets `DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER` to `YES`.",
+                                     description: "Prefixes bundle identifier with `maccatalyst`. Set this to true if your project sets `DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER` to `YES`",
                                      type: Boolean,
                                      default_value: false),
         FastlaneCore::ConfigItem.new(key: :platform,
